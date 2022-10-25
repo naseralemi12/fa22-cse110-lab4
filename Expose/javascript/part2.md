@@ -15,4 +15,23 @@
     D. student['Favorite Teacher'].name  
     E. student.courseLoad[0]
 13. A. '32' since integers map to their exact string representation
-    B. 
+    B. 1 since strings cant be subtraacted and only can be concatenated.
+    C. 3 null is 0 in decimal value
+    D. 3null since there is a string present, + will be treated as concatenation.
+    E. 4 becuase value of true is 1 and there is no string so no concatenation
+    F. 0 becuase null and false are both 0 in decimal
+    G. '3undefined' becuase string with a + sign will concatenate with whatever comes next
+    H. Nan becuase strings dont have subtraaction so this time they will be subtracted which will cause in Nan.
+14. A. true since the value of '2' will be compred and it will be bigger than 1   
+    B. false since in here we are comparing two strings and index of 2 is bigger than 12.  
+    C. true. since number value of '2' is same as 2.  
+    D. false. === is stricter so the types should match too 
+    E. false. since value for true is 1.
+    F. true. since boolean(2) is 1 and true is also 1 so 1===1 is true.  
+15. == compares and returns the result of the comparison without caring about the type. === cares about the type as well and will return false if the types are different.
+17. when modifyArray is called the for loop iterates through the elements of the array and add each element * 2 to the newly created newArr array. the multiplication by 2 is done in a different function called do something which is simpley called inside the for loop to do the job. so at the end newArr = [2,4,6] will be returned.
+19. 1 
+    4
+    undefined
+    3
+    2
